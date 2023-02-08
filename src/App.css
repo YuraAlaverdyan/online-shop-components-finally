@@ -1,0 +1,43 @@
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.drop {
+  border: 2px solid gray;
+  padding: 20px;
+  width: 300px;
+  background: lightseagreen;
+}
+
+.drop input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list div {
+  margin-top: 20px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.high td {
+  background: red!important;
+}
+
+.cart-button img {
+  width: 50px;
+  height: 50px;
+}
+
+.cart-button {
+  border-radius: 50px;
+}
